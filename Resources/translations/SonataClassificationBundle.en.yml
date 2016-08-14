@@ -1,0 +1,5 @@
+sonata_classification: Classification
+label_tags: Tags
+label_categories: Categories
+label_collections: Collections
+label_contexts: Contexts

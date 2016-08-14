@@ -1,0 +1,11 @@
+{
+    "name": "awaresoft/SonataClassificationBundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Awaresoft SonataClassificationBundle",
+    "require": {
+        "php": ">= 7",
+        "symfony/symfony": "2.*"
+    },"autoload": {
+    "psr-4": { "Awaresoft\\SonataClassificationBundle\\": "" }
+}
+}

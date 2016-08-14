@@ -1,0 +1,6 @@
+services:
+    sonata.classification.manager.tag:
+        class: Awaresoft\Sonata\ClassificationBundle\Entity\TagManager
+        arguments:
+            - "%sonata.classification.manager.tag.entity%"
+            - "@doctrine"
