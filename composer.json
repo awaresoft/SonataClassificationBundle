@@ -1,5 +1,5 @@
 {
-    "name": "awaresoft/SonataClassificationBundle",
+    "name": "awaresoft/sonata-classification-bundle",
     "type": "symfony-bundle",
     "description": "Symfony Awaresoft SonataClassificationBundle",
     "require": {
