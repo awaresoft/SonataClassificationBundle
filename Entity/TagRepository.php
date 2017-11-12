@@ -3,7 +3,6 @@
 namespace Awaresoft\Sonata\ClassificationBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
-use Doctrine\ORM\Query\Expr\Join;
 
 /**
  * Class FaqRepository
@@ -12,7 +11,6 @@ use Doctrine\ORM\Query\Expr\Join;
  */
 class TagRepository extends EntityRepository
 {
-
     /**
      * @return \Doctrine\ORM\QueryBuilder
      */

@@ -15,7 +15,7 @@ class TagManager extends BaseTagManager
     public function addTagsByString(array $tags, $limit = null)
     {
         $output = [];
-        $em = $this->getEntityManager();
+        $entityManager = $this->getEntityManager();
         $i = 0;
 
         foreach ($tags as $tag) {
@@ -30,8 +30,8 @@ class TagManager extends BaseTagManager
                     $newTag = new Tag();
                     $newTag->setName($tag);
                     $newTag->setEnabled(true);
-                    $em->persist($newTag);
-                    $em->flush();
+                    $entityManager->persist($newTag);
+                    $entityManager->flush();
                     $output[] = $newTag->getId();
                 }
             } else {
@@ -41,7 +41,7 @@ class TagManager extends BaseTagManager
             $i++;
         }
 
-        return $output;
+        return $entityManager;
     }
 
     /**
